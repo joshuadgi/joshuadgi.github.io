@@ -12,11 +12,15 @@ permalink: /calendar/
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css">
 <link rel="stylesheet" media="print" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.print.css">
 
-<div id="calendar"></div>
+<div id='calendar'></div>
 
 <script>
 var calendarEl = document.getElementById('calendar')
 var calendar = new FullCalendar.Calendar(calendarEl, {
+  initialView: 'dayGridMonth',
+  validRange: {
+    start: '2022-01-01'
+  },
   events:[
   {
     title: 'Pagi 1',
