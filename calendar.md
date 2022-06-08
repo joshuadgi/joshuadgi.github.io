@@ -13,7 +13,7 @@ permalink: /calendar/
 <link rel="stylesheet" media="print" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.print.css">
 
 <script>
-var calendar = document.getElementById('calendar')
+var calendarEl = document.getElementById('calendar')
 var calendar = new FullCalendar.Calendar(calendarEl, {
   events:[
   {
