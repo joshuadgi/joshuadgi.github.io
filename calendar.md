@@ -25,56 +25,56 @@ document.addEventListener('DOMContentLoaded', function(){
     events:[
     {
       title: 'Pagi 1',
+      backgroundColor: '#4287f5',
       rrule: {
         dtstart: '2022-06-01',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#4287f5'
+        interval: 8
       }
     },
     {
       title: 'Pagi 2',
+      backgroundColor: '#4287f5',
       rrule: {
         dtstart: '2022-06-02',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#4287f5'
+        interval: 8
       }
     },
     {
       title: 'Siang 1',
+      backgroundColor: '#fff587',
       rrule: {
         dtstart: '2022-06-03',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#fff587'
+        interval: 8
       }
     },
     {
       title: 'Siang 2',
+      backgroundColor: '#fff587',
       rrule: {
         dtstart: '2022-06-04',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#fff587'
+        interval: 8
       }
     },
     {
       title: 'Malam 1',
+      backgroundColor: '#8339fa',
       rrule: {
         dtstart: '2022-06-05',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#8339fa'
+        interval: 8
       }
     },
     {
       title: 'Malam 2',
+      backgroundColor: '#8339fa',
       rrule: {
         dtstart: '2022-06-06',
         freq: 'daily',
-        interval: 8,
-        backgroundColor: '#8339fa'
+        interval: 8
       }
     }
     ]
