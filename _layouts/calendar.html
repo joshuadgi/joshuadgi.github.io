@@ -1,9 +1,8 @@
 ---
-layout: default
-calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
-calendar_bootstrap_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/bootstrap.css">
+layout: base
+calendar_css: "/assets/bootstrap-calendar/css/calendar.css"
+calendar_bootstrap_css: "/assets/bootstrap/css/bootstrap.css"
 ---
-{% assign PATH_TO_COMPONENTS =  "/assets" | prepend: site.baseurl %}
 
 <div>
   {{ content }}
@@ -37,12 +36,12 @@ calendar_bootstrap_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootst
 
 </div>
 
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/lodash/lodash.min.js"></script>
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/moment/min/moment.min.js"></script>
-<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/papaparse/papaparse.min.js"></script>
+<script type="text/javascript" src="/assets/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/lodash/lodash.min.js"></script>
+<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/bootstrap-calendar/js/calendar.js"></script>
+<script type="text/javascript" src="/assets/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="/assets/papaparse/papaparse.min.js"></script>
 
 <script type="text/javascript">
 (function($) {
