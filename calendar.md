@@ -18,6 +18,31 @@ permalink: /calendar/
 document.addEventListener('DOMContentLoaded', function(){
   var calendarEl = document.getElementById('calendar');
   var calendar = new FullCalendar.Calendar(calendarEl, {
+    plugins: ['dayGrid'],
+    header: {
+      left: '',
+      center: 'title',
+      right: 'prev,next'
+    },
+    footer: {
+      left: '',
+      center: '',
+      right: 'prev,next'
+    },
+    customButtons: {
+      prev: {
+        text: 'Prev Month',
+        click: function(){
+          calendar.prev();
+        }
+      },
+      next: {
+        text: 'Next Month',
+        click: function(){
+          calendar.next();
+        }
+      }
+    },
     initialView: 'dayGridMonth',
     validRange: {
       start: '2022-06-01'
