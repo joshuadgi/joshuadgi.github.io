@@ -18,13 +18,12 @@ permalink: /calendar/
 document.addEventListener('DOMContentLoaded', function(){
   var calendarEl = document.getElementById('calendar');
   var calendar = new FullCalendar.Calendar(calendarEl, {
-    plugins: ['dayGrid'],
-    header: {
+    headerToolbar: {
       left: '',
       center: 'title',
       right: 'prev,next'
     },
-    footer: {
+    footerToolbar: {
       left: '',
       center: '',
       right: 'prev,next'
