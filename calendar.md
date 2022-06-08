@@ -15,63 +15,70 @@ permalink: /calendar/
 <div id='calendar'></div>
 
 <script>
-var calendarEl = document.getElementById('calendar')
-var calendar = new FullCalendar.Calendar(calendarEl, {
-  initialView: 'dayGridMonth',
-  validRange: {
-    start: '2022-01-01'
-  },
-  events:[
-  {
-    title: 'Pagi 1',
-    rrule: {
-      dtstart: '2022-06-01',
-      freq: 'daily',
-      interval: 8
+document.addEventListener('DOMContentLoaded', function(){
+  var calendarEl = document.getElementById('calendar');
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    validRange: {
+      start: '2022-06-01'
+    },
+    events:[
+    {
+      title: 'Pagi 1',
+      rrule: {
+        dtstart: '2022-06-01',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#4287f5'
+      }
+    },
+    {
+      title: 'Pagi 2',
+      rrule: {
+        dtstart: '2022-06-02',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#4287f5'
+      }
+    },
+    {
+      title: 'Siang 1',
+      rrule: {
+        dtstart: '2022-06-03',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#fff587'
+      }
+    },
+    {
+      title: 'Siang 2',
+      rrule: {
+        dtstart: '2022-06-04',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#fff587'
+      }
+    },
+    {
+      title: 'Malam 1',
+      rrule: {
+        dtstart: '2022-06-05',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#8339fa'
+      }
+    },
+    {
+      title: 'Malam 2',
+      rrule: {
+        dtstart: '2022-06-06',
+        freq: 'daily',
+        interval: 8,
+        backgroundColor: '#8339fa'
+      }
     }
-  },
-  {
-    title: 'Pagi 2',
-    rrule: {
-      dtstart: '2022-06-02',
-      freq: 'daily',
-      interval: 8
-    }
-  },
-  {
-    title: 'Siang 1',
-    rrule: {
-      dtstart: '2022-06-03',
-      freq: 'daily',
-      interval: 8
-    }
-  },
-  {
-    title: 'Siang 2',
-    rrule: {
-      dtstart: '2022-06-04',
-      freq: 'daily',
-      interval: 8
-    }
-  },
-  {
-    title: 'Malam 1',
-    rrule: {
-      dtstart: '2022-06-05',
-      freq: 'daily',
-      interval: 8
-    }
-  },
-  {
-    title: 'Malam 2',
-    rrule: {
-      dtstart: '2022-06-06',
-      freq: 'daily',
-      interval: 8
-    }
-  }
-  ]
-})
-
-calendar.render()
+    ]
+  });
+  calendar.render();
+  });
 </script>
