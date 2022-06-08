@@ -14,7 +14,8 @@ author: Josua Deston
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "about me"
+  About Me: "aboutme"
+  Calendar: "calendar"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
