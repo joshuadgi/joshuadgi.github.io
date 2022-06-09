@@ -19,38 +19,44 @@ permalink: /calendar/
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   var calendarEl = document.getElementById('calendar');
+  var today = moment().day();
   var calendar = new FullCalendar.Calendar(calendarEl, {
-    headerToolbar: {
-      left: '',
-      center: 'title',
-      right: ''
-    },
-    footerToolbar: {
-      left: '',
-      center: '',
-      right: 'prev,next'
-    },
+    themeSystem: 'bootstrap',
+    height: 80%,
     customButtons: {
-      prev: {
+      prevMo: {
         text: 'Prev Month',
         click: function(){
           calendar.prev();
         }
       },
-      next: {
+      nextMo: {
         text: 'Next Month',
         click: function(){
           calendar.next();
         }
       }
     },
-    initialView: 'dayGridMonth',
-    validRange: {
-      start: '2022-06-01'
+    headerToolbar: {
+      start: '',
+      center: 'title',
+      end: 'today'
     },
+    footerToolbar: {
+      start: '',
+      center: '',
+      end: 'prevMo,nextMo'
+    },
+    initialView: 'dayGridMonth',
     events:[
     {
+      start: 'today',
+      display: 'background',
+      backgroundColor: '#51f06c'
+      },
+    {
       title: 'Pagi 1',
+      display: 'background',
       backgroundColor: '#4287f5',
       rrule: {
         dtstart: '2022-06-01',
@@ -60,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Pagi 2',
+      display: 'background',
       backgroundColor: '#4287f5',
       rrule: {
         dtstart: '2022-06-02',
@@ -69,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Siang 1',
+      display: 'background',
       backgroundColor: '#fff587',
       rrule: {
         dtstart: '2022-06-03',
@@ -78,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Siang 2',
+      display: 'background',
       backgroundColor: '#fff587',
       rrule: {
         dtstart: '2022-06-04',
@@ -87,6 +96,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Malam 1',
+      display: 'background',
       backgroundColor: '#8339fa',
       rrule: {
         dtstart: '2022-06-05',
@@ -96,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Malam 2',
+      display: 'background',
       backgroundColor: '#8339fa',
       rrule: {
         dtstart: '2022-06-06',
