@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function(){
     initialView: 'dayGridMonth',
     events:[
     {
-      start: $('#calendar').fullCalendar('today'),
+      start: today,
       display: 'background',
       color: '#51f06c'
       },
