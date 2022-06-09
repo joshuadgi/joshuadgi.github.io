@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Today',
       start: 'today',
       display: 'background',
-      color: '#b50000',
+      backgroundColor: '#b50000',
       allDay: 'true'
       },
     {
       title: 'Pagi 1',
       textColor: '#ffffff',
       display: 'background',
-      color: '#089e80',
+      backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-01',
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Pagi 2',
       textColor: '#ffffff',
       display: 'background',
-      color: '#089e80',
+      backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-02',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Siang 1',
       textColor: '#ffffff',
       display: 'background',
-      color: '#bf6a15',
+      backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-03',
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Siang 2',
       textColor: '#ffffff',
       display: 'background',
-      color: '#bf6a15',
+      backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-04',
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Malam 1',
       textColor: '#ffffff',
       display: 'background',
-      color: '#132c3b',
+      backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-05',
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Malam 2',
       textColor: '#ffffff',
       display: 'background',
-      color: '#132c3b',
+      backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-06',
