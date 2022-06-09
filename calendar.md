@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function(){
       },
     {
       title: 'Pagi 1',
+      textColor: 'black',
       display: 'background',
       color: '#089e80',
       allDay: 'true',
@@ -69,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Pagi 2',
+      textColor: 'black',
       display: 'background',
       color: '#089e80',
       allDay: 'true',
@@ -80,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Siang 1',
+      textColor: 'black',
       display: 'background',
       color: '#bf6a15',
       allDay: 'true',
@@ -91,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Siang 2',
+      textColor: 'black',
       display: 'background',
       color: '#bf6a15',
       allDay: 'true',
@@ -102,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Malam 1',
+      textColor: 'black',
       display: 'background',
       color: '#132c3b',
       allDay: 'true',
@@ -113,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       title: 'Malam 2',
+      textColor: 'black',
       display: 'background',
       color: '#132c3b',
       allDay: 'true',
