@@ -1,5 +1,5 @@
 ---
-layout:
+layout: page
 title: Just Calendar
 permalink: /calendar/
 ---
@@ -11,6 +11,8 @@ permalink: /calendar/
 <script type="text/javascript" src="/scripts/main.global.min.js"></script>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css">
 <link rel="stylesheet" media="print" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.print.css">
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.css' rel='stylesheet'>
+<link href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.css' rel='stylesheet'>
 
 <div id='calendar'></div>
 
@@ -21,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
     headerToolbar: {
       left: '',
       center: 'title',
-      right: 'prev,next'
+      right: ''
     },
     footerToolbar: {
       left: '',
