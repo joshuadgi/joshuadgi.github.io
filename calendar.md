@@ -19,10 +19,9 @@ permalink: /calendar/
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   var calendarEl = document.getElementById('calendar');
-  var today = moment().day();
   var calendar = new FullCalendar.Calendar(calendarEl, {
     themeSystem: 'bootstrap',
-    height: '80%',
+    height: '100%',
     customButtons: {
       prevMo: {
         text: 'Prev Month',
@@ -35,29 +34,35 @@ document.addEventListener('DOMContentLoaded', function(){
         click: function(){
           calendar.next();
         }
+      },
+      goToday: {
+        text: 'Today',
+        click: function(){
+          calendar.today();
+        }
       }
     },
     headerToolbar: {
       start: '',
       center: 'title',
-      end: 'today'
+      end: ''
     },
     footerToolbar: {
-      start: '',
+      start: 'goToday',
       center: '',
       end: 'prevMo,nextMo'
     },
     initialView: 'dayGridMonth',
     events:[
     {
-      start: 'today',
+      start: $('#calendar').fullCalendar('today'),
       display: 'background',
-      backgroundColor: '#51f06c'
+      color: '#51f06c'
       },
     {
       title: 'Pagi 1',
       display: 'background',
-      backgroundColor: '#4287f5',
+      color: '#4287f5',
       rrule: {
         dtstart: '2022-06-01',
         freq: 'daily',
@@ -67,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Pagi 2',
       display: 'background',
-      backgroundColor: '#4287f5',
+      color: '#4287f5',
       rrule: {
         dtstart: '2022-06-02',
         freq: 'daily',
@@ -77,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Siang 1',
       display: 'background',
-      backgroundColor: '#fff587',
+      color: '#fff587',
       rrule: {
         dtstart: '2022-06-03',
         freq: 'daily',
@@ -87,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Siang 2',
       display: 'background',
-      backgroundColor: '#fff587',
+      color: '#fff587',
       rrule: {
         dtstart: '2022-06-04',
         freq: 'daily',
@@ -97,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Malam 1',
       display: 'background',
-      backgroundColor: '#8339fa',
+      color: '#8339fa',
       rrule: {
         dtstart: '2022-06-05',
         freq: 'daily',
@@ -107,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Malam 2',
       display: 'background',
-      backgroundColor: '#8339fa',
+      color: '#8339fa',
       rrule: {
         dtstart: '2022-06-06',
         freq: 'daily',
