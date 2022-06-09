@@ -1,5 +1,5 @@
 ---
-layout:
+layout: page
 title: Just Calendar
 permalink: /calendar/
 ---
@@ -56,12 +56,12 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       start: 'today',
       display: 'background',
-      color: '#51f06c',
+      backgroundColor: '#51f06c',
       allDay: 'true'
       },
     {
       display: 'background',
-      color: '#4287f5',
+      backgroundColor: '#4287f5',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-01',
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       display: 'background',
-      color: '#4287f5',
+      backgroundColor: '#4287f5',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-02',
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       display: 'background',
-      color: '#fff587',
+      backgroundColor: '#fff587',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-03',
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       display: 'background',
-      color: '#fff587',
+      backgroundColor: '#fff587',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-04',
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       display: 'background',
-      color: '#8339fa',
+      backgroundColor: '#8339fa',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-05',
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function(){
     },
     {
       display: 'background',
-      color: '#8339fa',
+      backgroundColor: '#8339fa',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-06',
