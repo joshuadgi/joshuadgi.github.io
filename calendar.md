@@ -53,13 +53,13 @@ document.addEventListener('DOMContentLoaded', function(){
       title: 'Today',
       start: 'today',
       display: 'background',
-      color: '#51f06c',
+      backgroundColor: '#b50000',
       allDay: 'true'
       },
     {
       title: 'Pagi 1',
       display: 'background',
-      color: '#4287f5',
+      backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-01',
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Pagi 2',
       display: 'background',
-      color: '#4287f5',
+      backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-02',
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Siang 1',
       display: 'background',
-      color: '#fff587',
+      backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-03',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Siang 2',
       display: 'background',
-      color: '#fff587',
+      backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-04',
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Malam 1',
       display: 'background',
-      color: '#8339fa',
+      backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-05',
@@ -114,13 +114,19 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       title: 'Malam 2',
       display: 'background',
-      color: '#8339fa',
+      backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
         dtstart: '2022-06-06',
         freq: 'daily',
         interval: 8
       }
+    },
+    {
+      groupId: 'Libur',
+      start: '2022-06-01',
+      display: 'inverse-background',
+      backgroundColor: '#29de00'
     }
     ]
   });
