@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var today = moment().day();
   var calendar = new FullCalendar.Calendar(calendarEl, {
     themeSystem: 'bootstrap',
-    height: 80%,
+    height: '80%',
     customButtons: {
       prevMo: {
         text: 'Prev Month',
