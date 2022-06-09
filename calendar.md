@@ -57,12 +57,13 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       start: 'today',
       display: 'background',
-      color: '#51f06c'
+      color: '#51f06c',
+      allDay: 'true'
       },
     {
-      title: 'Pagi 1',
       display: 'background',
       color: '#4287f5',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-01',
         freq: 'daily',
@@ -70,9 +71,9 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     },
     {
-      title: 'Pagi 2',
       display: 'background',
       color: '#4287f5',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-02',
         freq: 'daily',
@@ -80,9 +81,9 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     },
     {
-      title: 'Siang 1',
       display: 'background',
       color: '#fff587',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-03',
         freq: 'daily',
@@ -90,9 +91,9 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     },
     {
-      title: 'Siang 2',
       display: 'background',
       color: '#fff587',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-04',
         freq: 'daily',
@@ -100,9 +101,9 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     },
     {
-      title: 'Malam 1',
       display: 'background',
       color: '#8339fa',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-05',
         freq: 'daily',
@@ -110,9 +111,9 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     },
     {
-      title: 'Malam 2',
       display: 'background',
       color: '#8339fa',
+      allDay: 'true',
       rrule: {
         dtstart: '2022-06-06',
         freq: 'daily',
