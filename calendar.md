@@ -8,6 +8,7 @@ permalink: /calendar/
 <script type="text/javascript" src="/scripts/moment.min.js"></script>
 <script type="text/javascript" src="/assets/fullcalendar/main.min.js"></script>
 <script type="text/javascript" src="/scripts/rrule.min.js"></script>
+<script type="text/javascript" src="/scripts/main.global.min.js"></script>
 <link rel="stylesheet" href="/assets/fullcalendar/main.min.css">
 
 <div id='calendar'></div>
