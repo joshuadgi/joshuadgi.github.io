@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-01',
+        dtstart: '2022-06-29',
         freq: 'daily',
         interval: 8
       }
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#089e80',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-02',
+        dtstart: '2022-06-30',
         freq: 'daily',
         interval: 8
       }
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-03',
+        dtstart: '2022-07-01',
         freq: 'daily',
         interval: 8
       }
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#bf6a15',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-04',
+        dtstart: '2022-07-02',
         freq: 'daily',
         interval: 8
       }
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-05',
+        dtstart: '2022-07-03',
         freq: 'daily',
         interval: 8
       }
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function(){
       backgroundColor: '#132c3b',
       allDay: 'true',
       rrule: {
-        dtstart: '2022-06-06',
+        dtstart: '2022-07-04',
         freq: 'daily',
         interval: 8
       }
