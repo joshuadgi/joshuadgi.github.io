@@ -18,11 +18,9 @@ permalink: /countdown/
 
 <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
 
-<script type="text/javascript">
-  	$(function () {
-        var dday = new Date();
-        dday = new Date("{{site.utc}}");
-        $('#defaultCountdown').countdown({until: dday});
-        $('#year').text(dday.getFullYear());
-    });
+<script>
+    var dday = new Date();
+    dday = new Date("{{site.utc}}");
+    $('#defaultCountdown').countdown({until: dday});
+    $('#year').text(dday.getFullYear());
 </script>
