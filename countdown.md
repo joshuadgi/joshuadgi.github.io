@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: Just Countdown
 permalink: /countdown/
 ---
 
 
-<script type="text/javascript" src="/scripts/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="/scripts/jquery.countdown.min.js"></script>
 <link rel="stylesheet" href="/assets/css/jquery.countdown.css">
 <link rel="stylesheet" href="/assets/css/style.css">
