@@ -5,7 +5,7 @@ permalink: /countdown/
 ---
 
 
-<script type="text/javascript" src="/scripts/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="/scripts/jquery.countdown.min.js"></script>
 <link rel="stylesheet" href="/assets/css/jquery.countdown.css">
 <link rel="stylesheet" href="/assets/css/style.css">
@@ -17,10 +17,11 @@ permalink: /countdown/
 
 <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
 
-<script>
-  	var dday = new Date("{{site.utc}}");
-    var countdownEl = document.getElementById('defaultCountdown');
-    var year = document.getElementById('year');
-  	countdownEl.countdown({until: dday});
-  	year.text(dday.getFullYear());
+<script type="text/javascript">
+  	$(function () {
+        var dday = new Date();
+        dday = new Date("{{site.utc}}");
+        $('#defaultCountdown').countdown({until: dday});
+        $('#year').text(dday.getFullYear());
+    });
 </script>
