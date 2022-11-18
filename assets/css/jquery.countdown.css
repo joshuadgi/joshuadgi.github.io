@@ -12,7 +12,7 @@
 .countdown_row {
 	clear: both;
 	width: 100%;
-	padding: 0px 2px;
+	padding: 10px 10px;
 	text-align: center;
 }
 .countdown_show1 .countdown_section {
@@ -43,7 +43,7 @@
 	text-align: center;
 }
 .countdown_amount {
-	font-size: 200%;
+	font-size: 400%;
 }
 .countdown_descr {
 	display: block;

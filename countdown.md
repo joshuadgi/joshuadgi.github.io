@@ -9,7 +9,6 @@ permalink: /countdown/
 <script type="text/javascript" src="/scripts/jquery.plugin.min.js"></script>
 <script type="text/javascript" src="/scripts/jquery.countdown.min.js"></script>
 <link rel="stylesheet" href="/assets/css/jquery.countdown.css">
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>>
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
 
