@@ -21,7 +21,7 @@ permalink: /countdown/
 
 <div class="row">
     <div class="col-sm-12 text-center">
-        <h2 class="background-highlight"><div id="defaultCountdown"></div></div></h2>
+        <h2 class="background-highlight" id="defaultCountdown"></h2>
     </div>
 </div>
 
