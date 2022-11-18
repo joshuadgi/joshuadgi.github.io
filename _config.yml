@@ -23,6 +23,22 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/avatar-icon.png"
 
+#fromcountdown
+utc: "2023-06-17 0:00:00 +0700" #Required. The start time of the event. Best to use UTC format, but may work in other date formats too.
+name: "Wedding Day" #Required. The human-readable name of the event
+logo: countdown.png #Required. logo for the event. replace this logo in the project or add a new file and change the value of this variable
+description: "Josua and Ellys Wedding Day" #Required. short description of the event. this is used in the preview when the link is shared on facebook
+externalLink: "http://joshuadgi.github.io" #Required. link to the main event page. this could be a webpage, a facebook event, an eventbrite page, where ever the main webpage is for your event
+url: "http://joshuadgi.github.io" #(Optional) the full URL for this countdown page. This is neccesary for facebook share previews
+facebookEventLink: #(Optional) if you have a facebook event, put the link here and we'll add a "RSVP on facebook" link at the bottom.
+hashtag: "" #(Optional) hashtag for the event, example "#hashtag". must be in quotes.
+colors: #(Optional)
+  background: "#FFF" #color of the background of the page
+  primary: "#3FBFBC" #primary color for the page
+  secondary: "#EE4823" #secondary color for the page
+  textcolor: "#FFF" #color of the text, which is overlayed on the primary color
+fontfamily: "'Open Sans', sans-serif" #optional
+
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
