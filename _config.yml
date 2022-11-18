@@ -16,6 +16,7 @@ author: Josua Deston
 navbar-links:
   About Me: "aboutme"
   Calendar: "calendar"
+  Countdown: "countdown"
 
 # --- Logo --- #
 

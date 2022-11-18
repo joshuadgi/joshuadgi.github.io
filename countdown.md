@@ -17,9 +17,8 @@ permalink: /countdown/
 
 <div class="row">
       <div class="col-sm-12 text-center">
-				<h1 class="background-highlight">{{site.name}}</h1>
-        <h2 class="background-highlight">countdown</h2>
-	       <a href="{{site.externalLink}}"><img src="/assets/img/countdown.png" style="width:50%"/></a>
+			<h1 class="background-highlight">{{site.name}}</h1>
+	       <a href="{{site.externalLink}}"><img src="/assets/img/countdown.png" style="width:100%"/></a>
       </div>
     </div> <!-- /row -->
 
@@ -38,10 +37,10 @@ permalink: /countdown/
 <!-- Placed at the end of the document so the pages load faster -->
 
 <!-- jquery  -->
-<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-1.11.3.js"></script>
 
 <!-- countdown code -->
-<script src="/assets/js/jquery.countdown.min.js"></script>
+<script src="/assets/js/jquery.countdown.js"></script>
 
 <!-- start the countdown when the page loads -->
 <script type="text/javascript">
