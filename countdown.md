@@ -32,6 +32,6 @@ permalink: /countdown/
 <script>
     var dday = new Date();
     dday = new Date("{{site.utc}}");
-    $('#defaultCountdown').countdown({until: dday});
+    $('#defaultCountdown').countdown({until: dday, layout: '{dn} {dl}            {hn} {hl}            {mn} {ml}            {sn} {sl}'});
     $('#year').text(dday.getFullYear());
 </script>
