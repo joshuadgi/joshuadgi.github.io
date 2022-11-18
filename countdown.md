@@ -18,7 +18,7 @@ permalink: /countdown/
       <div class="col-sm-12 text-center">
 				<h1 class="background-highlight">{{site.name}}</h1>
         <h2 class="background-highlight">countdown</h2>
-	       <a href="{{site.externalLink}}"><img src="{{site.logo}}" style="width:40%"/></a>
+	       <a href="{{site.externalLink}}"><img src="countdown.PNG" style="width:50%"/></a>
       </div>
     </div> <!-- /row -->
 
@@ -34,15 +34,15 @@ permalink: /countdown/
 
 <!-- javascript includes
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+<!-- Placed at the end of the document so the pages load faster -->
 
-    <!-- jquery  -->
+<!-- jquery  -->
 <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
 
-    <!-- countdown code -->
+<!-- countdown code -->
 <script src="assets/js/jquery.countdown.min.js"></script>
 
-    <!-- start the countdown when the page loads -->
+<!-- start the countdown when the page loads -->
 <script type="text/javascript">
   	$(function () {
   		var holiday = new Date();
@@ -51,4 +51,4 @@ permalink: /countdown/
   		$('#year').text(holiday.getFullYear());
   	});
 </script>
-    <!-- end of javascript includes  -->
+<!-- end of javascript includes  -->
