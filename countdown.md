@@ -21,7 +21,7 @@ permalink: /countdown/
     $(function () {
   	    var dday = new Date();
   		dday = new Date("{{site.utc}}");
-  		$('#defaultCountdown').countdown({until: holiday});
-  		$('#year').text(holiday.getFullYear());
+  		$('#defaultCountdown').Countdown({until: dday});
+  		$('#year').text(dday.getFullYear());
   	});
 </script>
