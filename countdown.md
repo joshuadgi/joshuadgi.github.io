@@ -17,11 +17,10 @@ permalink: /countdown/
 
 <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
 
-<script type="text/javascript">
-    $(function () {
-  	    var dday = new Date();
-  		dday = new Date("{{site.utc}}");
-  		$('#defaultCountdown').Countdown({until: dday});
-  		$('#year').text(dday.getFullYear());
-  	});
+<script>
+  	var dday = new Date("{{site.utc}}");
+    var countdownEl = document.getElementById('defaultCountdown');
+    var year = document.getElementById('year');
+  	countdownEl.countdown({until: dday});
+  	year.text(dday.getFullYear());
 </script>
