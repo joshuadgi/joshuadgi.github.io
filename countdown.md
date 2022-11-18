@@ -20,7 +20,9 @@ permalink: /countdown/
 </div> 
 
 <div class="row">
-    <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
+    <div class="col-sm-12 text-center">
+        <h2 class="background-highlight"><div id="defaultCountdown"></div></div></h2>
+    </div>
 </div>
 
 <div class="row">
@@ -32,6 +34,6 @@ permalink: /countdown/
 <script>
     var dday = new Date();
     dday = new Date("{{site.utc}}");
-    $('#defaultCountdown').countdown({until: dday, layout: '{dn} {dl}            {hn} {hl}            {mn} {ml}            {sn} {sl}'});
+    $('#defaultCountdown').countdown({until: dday, layout: '{dn} {dl} {hn} {hl} {mn} {ml} {sn} {sl}'});
     $('#year').text(dday.getFullYear());
 </script>
